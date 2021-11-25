@@ -216,3 +216,27 @@ export const FullImageContainer = styled.div`
   display: inline;
   width: 100%;
 `
+
+export const ProfileContainer = styled.div`
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-family: MinistryBold;
+`
+
+export const ProfileWrapper = styled.div`
+  width: 60%;
+  display: flex;
+  flex-direction: flex-start;
+  flex-direction: column;
+  margin-right: 50px;
+`
+export const FlexBox = styled.div`
+  display: flex;
+  align-items: flex-end;
+  font-size: 39px;
+  font-weight: 700;
+  color: #036EA3;
+`

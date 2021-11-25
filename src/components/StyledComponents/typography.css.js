@@ -2,6 +2,7 @@ import styled, { createGlobalStyle } from "styled-components"
 import Book from "../../assetts/fonts/fonts/CentraNo2-Book.woff2"
 import Light from "../../assetts/fonts/fonts/CentraNo2-Light.woff"
 import Medium from "../../assetts/fonts/fonts/CentraNo2-Medium.woff"
+import MinistryBold from "../../assetts/fonts/fonts/MinistryBold.woff"
 
 export const Typography = createGlobalStyle`
 :root{
@@ -17,10 +18,14 @@ export const Typography = createGlobalStyle`
   }
 }
   @font-face {
+    font-family: 'MinistryBold';
+    src: url(${MinistryBold});
+    font-style: normal;
+  }
+  @font-face {
     font-family: 'CentraNo2Book';
     src: url(${Book});
     font-style: normal;
- 
   }
   @font-face {
     font-family: 'CentraNo2Light';
