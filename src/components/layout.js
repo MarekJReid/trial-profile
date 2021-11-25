@@ -9,7 +9,6 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { PageWrapper } from "./StyledComponents/containers.css"
-import Header from "./header"
 
 
 const Layout = ({ children }) => {
